@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_eye_build">
+  <Health>
+    <Max>90</Max>
+  </Health>
+  <Identity>
+    <Civ>spart</Civ>
+    <Icon>units/hele_support_female_citizen.png</Icon>
+    <SelectionGroupName>units/spart_build</SelectionGroupName>
+  </Identity>
+  <UnitAI> 
+    <DefaultStance>standground</DefaultStance> 
+  </UnitAI> 
+  <VisualActor>
+    <Actor>units/spartans/female_citizen.xml</Actor>
+  </VisualActor>
+</Entity>

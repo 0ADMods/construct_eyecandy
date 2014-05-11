@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_eye_build">
+  <Identity>
+    <Civ>pers</Civ>
+    <Icon>units/pers_support_female_citizen.png</Icon>
+	<SelectionGroupName>units/pers_build</SelectionGroupName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/persians/female_citizen.xml</Actor>
+  </VisualActor>
+</Entity>
