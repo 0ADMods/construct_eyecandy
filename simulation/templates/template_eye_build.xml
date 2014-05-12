@@ -6,6 +6,18 @@
     <Rate>3.0</Rate>
     <Entities datatype="tokens">
       mu/objects/all_bench
+	  mu/objects/all_fence_stone
+	  mu/objects/all_fence_long
+	  mu/objects/all_fence_short
+	  mu/objects/all_bridge_wooden
+	  mu/objects/all_bridge_hele
+	  mu/objects/all_animal_pen
+	  mu/objects/all_snowman
+	  mu/objects/all_orchard
+	  mu/objects/all_tent1
+	  mu/objects/all_tent2
+	  mu/objects/all_elven
+	  mu/objects/all_gravestone
     </Entities>
   </Builder>
   <Cost>

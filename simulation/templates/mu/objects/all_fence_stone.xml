@@ -5,9 +5,6 @@
     <Pierce>10</Pierce>
     <Crush>2</Crush>
   </Armour>
-  <BuildRestrictions>
-    <Category>Special</Category>
-  </BuildRestrictions>
   <Footprint>
     <Square width="1.5" depth="11.0"/>
     <Height>4.0</Height>
@@ -15,8 +12,18 @@
   <Health>
     <Max>200</Max>
   </Health>
+  <BuildRestrictions>
+    <Category>Eyecandy</Category>
+  </BuildRestrictions>
+  <Cost>
+	<BuildTime>75</BuildTime>
+    <Resources>
+      <food>0</food>
+	  <stone>100</stone>
+    </Resources>
+  </Cost>
   <Identity>
-    <Civ>gaia</Civ>
+    <Civ>{civ}</Civ>
     <GenericName>Stone Fence</GenericName>
     <SpecificName>Stone Fence</SpecificName>
     <History>A stone fence.</History>
@@ -37,10 +44,12 @@
   </StatusBars>
   <TerritoryDecay disable=""/>
   <Vision>
-    <Range>4</Range>
-    <RetainInFog>true</RetainInFog>
+    <Range>25</Range>
   </Vision>
   <VisualActor>
     <Actor>props/special/eyecandy/fence_stone_medit.xml</Actor>
+  </VisualActor>
+  <VisualActor>
+    <FoundationActor>structures/fndn_1x1pal.xml</FoundationActor>
   </VisualActor>
 </Entity>

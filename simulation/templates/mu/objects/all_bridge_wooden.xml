@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure">
   <BuildRestrictions>
-    <Category>Special</Category>
+    <Category>Eyecandy</Category>
+	<PlacementType>shore</PlacementType>
   </BuildRestrictions>
+  <Cost>
+	<BuildTime>75</BuildTime>
+    <Resources>
+      <food>0</food>
+	  <wood>200</wood>
+    </Resources>
+  </Cost>
   <Footprint>
     <Square width="62" depth="15.5"/>
     <Height>10.0</Height>
   </Footprint>
   <Health>
-    <Max>200000</Max>
+    <Max>4000</Max>
   </Health>
   <Identity>
-    <Civ>gaia</Civ>
+    <Civ>{civ}</Civ>
     <GenericName>Wooden Bridge</GenericName>
     <SpecificName>Wooden Bridge</SpecificName>
     <History>Roman engineers constructed bridges using concrete, which they called Opus caementicium.</History>
@@ -31,5 +39,8 @@
   </Vision>
   <VisualActor>
     <Actor>props/special/eyecandy/bridge_edge_wooden.xml</Actor>
+  </VisualActor>
+  <VisualActor>
+    <FoundationActor>structures/fndn_wall.xml</FoundationActor>
   </VisualActor>
 </Entity>

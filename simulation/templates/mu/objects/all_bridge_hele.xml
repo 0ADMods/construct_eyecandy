@@ -1,22 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure">
-  <BuildRestrictions>
-    <Category>Special</Category>
-  </BuildRestrictions>
-  <Footprint>
+    <Footprint>
     <Square width="62" depth="15.5"/>
     <Height>10.0</Height>
   </Footprint>
   <Health>
-    <Max>200000</Max>
+    <Max>8000</Max>
   </Health>
   <Identity>
-    <Civ>gaia</Civ>
+    <Civ>{civ}</Civ>
     <GenericName>Bridge</GenericName>
     <SpecificName>Bridge</SpecificName>
     <History>Roman engineers constructed bridges using concrete, which they called Opus caementicium.</History>
     <Icon>gaia/special_blank.png</Icon>
   </Identity>
+  <BuildRestrictions>
+    <Category>Eyecandy</Category>
+	<PlacementType>shore</PlacementType>
+  </BuildRestrictions>
+  <Cost>
+	<BuildTime>450</BuildTime>
+    <Resources>
+      <food>0</food>
+	  <stone>250</stone>
+    </Resources>
+  </Cost>
   <Obstruction>
     <Obstructions>
       <Edge width="59" depth="4" x="0" z="5"/> 
@@ -32,4 +40,17 @@
   <VisualActor>
     <Actor>props/special/eyecandy/bridge_edge_hele.xml</Actor>
   </VisualActor>
+  <VisualActor>
+    <FoundationActor>structures/fndn_wall.xml</FoundationActor>
+  </VisualActor>
+  <BuildRestrictions>
+    <Category>Eyecandy</Category>
+  </BuildRestrictions>
+  <Cost>
+	<BuildTime>75</BuildTime>
+    <Resources>
+      <food>0</food>
+	  <wood>50</wood>
+    </Resources>
+  </Cost>
 </Entity>
