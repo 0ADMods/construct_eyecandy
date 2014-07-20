@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_eye_build">
+<Entity parent="template_eyecandy_builder">
     <Health>
     <Max>75</Max>
   </Health>
   <Identity>
-	<Civ>celt</Civ>
+    <Civ>gaul</Civ>
     <Icon>units/celt_support_female_citizen.png</Icon>
-	<SelectionGroupName>units/celt_build</SelectionGroupName>
+	<SelectionGroupName>units/gaul_eyecandy_builder</SelectionGroupName>
   </Identity>
   <VisualActor>
     <Actor>units/celts/female_citizen.xml</Actor>

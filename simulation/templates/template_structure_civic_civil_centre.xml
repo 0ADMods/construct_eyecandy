@@ -83,7 +83,7 @@
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}_support_female_citizen
-	  mu/eye/{civ}_build
+	  {civ}_eyecandy_builder
     </Entities>
     <Technologies datatype="tokens">
       phase_town_generic

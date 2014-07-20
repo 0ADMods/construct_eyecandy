@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_eye_build">
+<Entity parent="template_eyecandy_builder">
   <Identity>
     <Civ>athen</Civ>
     <Icon>units/hele_support_female_citizen.png</Icon>
-	<SelectionGroupName>units/athen_build</SelectionGroupName>
+	<SelectionGroupName>units/athen_eyecandy_builder</SelectionGroupName>
   </Identity>
   <VisualActor>
     <Actor>units/athenians/female_citizen.xml</Actor>

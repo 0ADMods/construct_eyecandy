@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_eye_build">
+<Entity parent="template_eyecandy_builder">
   <Health>
     <Max>90</Max>
   </Health>
   <Identity>
     <Civ>spart</Civ>
     <Icon>units/hele_support_female_citizen.png</Icon>
-    <SelectionGroupName>units/spart_build</SelectionGroupName>
+    <SelectionGroupName>units/spart_eyecandy_builder</SelectionGroupName>
   </Identity>
   <UnitAI> 
     <DefaultStance>standground</DefaultStance> 

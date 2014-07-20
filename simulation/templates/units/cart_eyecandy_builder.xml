@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_eye_build">
+<Entity parent="template_eyecandy_builder">
   <Identity>
     <Civ>cart</Civ>
     <Icon>units/cart_support_female_citizen.png</Icon>
-	<SelectionGroupName>units/cart_build</SelectionGroupName>
+	<SelectionGroupName>units/cart_eyecandy_builder</SelectionGroupName>
   </Identity>
   <VisualActor>
     <Actor>units/carthaginians/female_citizen.xml</Actor>

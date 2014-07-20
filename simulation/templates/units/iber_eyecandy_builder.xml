@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_eye_build">
+<Entity parent="template_eyecandy_builder">
   <Identity>
     <Civ>iber</Civ>
     <Icon>units/iber_support_female_citizen.png</Icon>
