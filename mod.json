@@ -1,0 +1,9 @@
+{
+    "name": "construct_eyecandy_objects",
+    "version": "0.0.17",
+    "label": "Construct eyecandy objects",
+    "url": "github.com/0ADMods/construct_eyecandy",
+    "description": "Makes all eyecandy objects like fences and bridges constructable in 0AD.",
+    "dependencies": ["0ad_extended=0.0.17", "eyecandy_objects=0.0.17"],
+    "type": "functionality"
+}
